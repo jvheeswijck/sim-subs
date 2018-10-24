@@ -22,8 +22,7 @@ is a desired addition however I do not know if I will get
 All notable changes to this project will be documented in this file.
 
 ### [Unreleased]
-#### Changed
-- Update and improvement of Polish translation from [@m-aciek](https://github.com/m-aciek).
+- Topic modelling for comment and post titles.
 
 ### [0.2.0] - 2018-10-24
 - Uploaded project.
