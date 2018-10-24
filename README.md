@@ -1,5 +1,5 @@
-#Similar Subreddits
-##Description
+# Similar Subreddits
+## Description
 This is my fourth project I began during my studies at Metis 
 (a data science bootcamp). It aims to create a recommendation engine
 to suggest subreddits. The initial version uses nnmf for topic modelling 
@@ -15,7 +15,7 @@ of recommendations.
 is a desired addition however I do not know if I will get  
 
 
-##To-Do
+## To-Do
 
 
 ## Changelog
