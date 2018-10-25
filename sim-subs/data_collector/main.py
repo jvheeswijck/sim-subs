@@ -22,9 +22,9 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy_declarative import User, Comment, Post, Subreddit, Base
 
 # File Settings
-reddit_auth_file = 'reddit_auth.txt'
-db_settings_file = 'db_settings.txt'
-sub_list_file = 'subs.txt'
+reddit_auth_file = 'settings/reddit_auth.txt'
+db_settings_file = 'settings/db_settings.txt'
+sub_list_file = 'settings/subs.txt'
 sub_history_file = ''
 
 logging.basicConfig(level=logging.INFO)
@@ -227,6 +227,7 @@ def create_subreddit(sub):
     new_sub.sub_name = sub.display_name
     new_sub.created = dt.datetime.fromtimestamp(sub.created_utc)
     new_sub.description = sub.description
+    new_sub.public_description = sub.public_description
     new_sub.sub_count = sub.subscribers
     new_sub.audience = sub.audience_target
     new_sub.url = sub.url

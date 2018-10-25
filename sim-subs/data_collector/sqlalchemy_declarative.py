@@ -43,6 +43,7 @@ class Subreddit(Base):
     sub_id = Column(String, primary_key=True)
     sub_name = Column(String, nullable=False)
     description = Column(String)
+    public_description = Column(String)
     created = Column(DateTime)
     sub_count = Column(Integer)
     audience = Column(String)
