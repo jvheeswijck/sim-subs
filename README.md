@@ -2,16 +2,16 @@
 ## Description
 This is my fourth project I began during my studies at Metis 
 (a data science bootcamp). It aims to create a recommendation engine
-to suggest subreddits. The initial version uses nnmf for topic modelling 
+to suggest subreddits. The initial version uses nmf for topic modelling 
 to gauge the user's interests from their reddit comments
 and compare them to a database of subreddits.
-It uses the topic of users comments and the sentiment to create a list
+Using the topics extracted from users comments and the sentiment to create a list
 of recommendations.
  
- Future versions will improve recommendations by incorporating an 
- engagement score and slider for those that prefer to lurk vs those
- that actively post and comment. 
- dditionally, social network integration
+Future versions will improve recommendations by incorporating an 
+engagement score and slider for those that prefer to lurk vs those
+that actively post and comment. 
+dditionally, social network integration
 is a desired addition however I do not know if I will get  
 
 
